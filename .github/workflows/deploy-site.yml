@@ -41,6 +41,11 @@ jobs:
       with:
         dotnet-version: '8.0.x'
     
+    # changes the StaticWebAssetBasePath-tag in .csproj from '/' to 'blazored-demo' to match GitHub Pages repository subdirectory
+    - name: ✏ Change StaticWebAssetBasePath-tag in .csproj from / to blazored-demo
+      run: sed -i 's/<StaticWebAssetBasePath>"\/"<\/StaticWebAssetBasePath>/<StaticWebAssetBasePath>"\/blazored-demo\/"<\/StaticWebAssetBasePath>/g' src/BlazoredDemo.csproj
+#       working-directory: src
+    
     # publishes Blazor project to the release-folder
     - name: ⬆ Publish .NET Core Project
       run: dotnet publish src/BlazoredDemo.csproj -c Release -o release --nologo
