@@ -46,9 +46,9 @@ jobs:
       run: dotnet publish src/BlazoredDemo.csproj -c Release -o release --nologo
 #       working-directory: src
     
-    # changes the base-tag in index.html from '/' to 'BlazoredDemo' to match GitHub Pages repository subdirectory
-    - name: ✏ Change base-tag in index.html from / to BlazoredDemo
-      run: sed -i 's/<base href="\/" \/>/<base href="\/BlazoredDemo\/" \/>/g' release/wwwroot/index.html
+    # changes the base-tag in index.html from '/' to 'blazored-demo' to match GitHub Pages repository subdirectory
+    - name: ✏ Change base-tag in index.html from / to blazored-demo
+      run: sed -i 's/<base href="\/" \/>/<base href="\/blazored-demo\/" \/>/g' release/wwwroot/index.html
 #       working-directory: src
     
     # copy index.html to 404.html to serve the same file when a file is not found
