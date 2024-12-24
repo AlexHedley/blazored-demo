@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "BlazoredDemo",
   "resources": {
-    "hash": "sha256-dLBOjuAkOb1e4X1maAfVjuQhSSWvVbOZxIGSlZ412KE=",
+    "hash": "sha256-TKoT3JNXzlpfD6ADdylwvmQYHlP07moZgav/+BcjGG0=",
     "jsModuleNative": {
       "dotnet.native.8.0.11.n1sf6xr5tz.js": "sha256-VdKq87/z5NIxZKmuM+fv38XF+RcEb/bg3jVBwQSfwP4="
     },
@@ -18,7 +18,7 @@
     },
     "assembly": {
       "Blazored.TextEditor.wasm": "sha256-1ebmJfCpIFu4SC9ekRq0AugDimh2XHa+P1Bgi6zfFa4=",
-      "BlazoredDemo.wasm": "sha256-XyZZgqeHZ6s5EwdFVw+EQ1MIeBBw2RJ3nTFrwAufufU=",
+      "BlazoredDemo.wasm": "sha256-ucmojebkqhQ80p6wj0ruKOKCJHboSAwo9qR2zUDjVh0=",
       "Microsoft.AspNetCore.Components.wasm": "sha256-ncYUc8OC4SpxtrYDZ+3aBQwUyjPtb6SYPfTQ4E/HqSE=",
       "Microsoft.AspNetCore.Components.Web.wasm": "sha256-/k31qMohn35aRM65SxYwuNB5CeXXloJPtwt4l4dG/AY=",
       "Microsoft.AspNetCore.Components.WebAssembly.wasm": "sha256-mq9Bf+1fRF6YC/ro2NPxtoh+szT1wSIzMzJ6FpNjYu8=",
